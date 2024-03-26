@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin: 50px;
+    margin-left: 500px;
+}
+
+.heading
+{
+    margin-left: 200px;
+}
+
+
+/* 
+
+
+.addBtn
+{
+    width: 100px;
+    height: 40px;
+    border-radius:10px ;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+} */
+
+
+/* .todo-date
+{
+    border: 2px solid lightgrey;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.todo-input
+{
+    border: 2px solid lightgrey;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.todo-input:hover
+{
+    border: 2px solid orange;
+}
+
+.todo-date:hover
+{
+    border: 2px solid orange;
+}
+
+
+button:active
+{
+    transform: scale(0.9);
+}
+
+
+.grid-container
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 50px;
+    row-gap: 20px;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight:600;
+}
+
+
+.todo-input,.todo-date
+{
+    border: 2px solid lightgray;
+    border-radius: 10px ;
+    font-size: 15px;
+    padding: 10px 5px;
+
+}
+
+.deleteBtn
+{
+    background-color: rgba(21, 18, 18, 0.856);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px ;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.addBtn
+{
+    background-color: rgb(1, 116, 1);
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size:  0.9rem;
+    border-radius: 10px;
+}
+
+
